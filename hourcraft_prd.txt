@@ -1,0 +1,34 @@
+# PRD - Hourcraft Internal Management App
+
+## Project Overview
+Hourcraft is an internal workforce management tool designed for sector-based operations. It features a hierarchical role system (Developer, Global Manager, Sector Leaders) and handles agent directories, shift scheduling, payroll exports, and activity auditing.
+
+## Target Audience
+Internal staff only (no agent access).
+
+## Key Features
+- **Role-Based Access Control (RBAC):**
+    - **Developer:** Full access, maintenance bypass, system logs.
+    - **Global Manager:** Company-wide visibility, payroll exports, final planning validation.
+    - **Sector Leader:** Sector-specific agent management and shift scheduling.
+- **Agent Management:**
+    - Sector-specific directories.
+    - Soft-archiving for historical data retention.
+    - Detailed profiles (Contact, RIB/Banking, Contract tracking).
+- **Shift & Planning:**
+    - Scheduling with automatic night/weekend/holiday premium detection.
+    - One-click replacements.
+    - Global validation lock.
+- **Utility & Security:**
+    - Fast search & filtering.
+    - Payroll export (CSV/Excel).
+    - Expiry alerts for contracts/docs.
+    - Shift logs (Main Courante).
+    - Audit trail (Activity Journal).
+    - Global maintenance mode.
+
+## Visual Direction
+- **Style:** Modern, clean, professional.
+- **Theme:** "Minecraft-inspired" (blocky accents, voxel-like buttons, pixelated icons, earth/grass palette: greens, browns, grays) but refined for a corporate context.
+- **Framework:** Tailwind CSS.
+- **Database Prep:** Supabase-ready structure.
